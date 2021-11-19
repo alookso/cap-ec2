@@ -1,0 +1,49 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CapEC2	lib/cap-ec2/ec2-handler.rb	/^module CapEC2$/;"	m
+CapEC2	lib/cap-ec2/status-table.rb	/^module CapEC2$/;"	m
+CapEC2	lib/cap-ec2/utils.rb	/^module CapEC2$/;"	m
+CapEC2	lib/cap-ec2/version.rb	/^module CapEC2$/;"	m
+Capistrano	lib/cap-ec2/capistrano.rb	/^module Capistrano$/;"	m
+DSL	lib/cap-ec2/capistrano.rb	/^  module DSL$/;"	m	class:Capistrano
+EC2Handler	lib/cap-ec2/ec2-handler.rb	/^  class EC2Handler$/;"	c	class:CapEC2
+Ec2	lib/cap-ec2/capistrano.rb	/^    module Ec2$/;"	m	class:Capistrano.DSL
+Server	lib/cap-ec2/utils.rb	/^    module Server$/;"	m	class:CapEC2.Utils
+StatusTable	lib/cap-ec2/status-table.rb	/^  class StatusTable$/;"	c	class:CapEC2
+Utils	lib/cap-ec2/utils.rb	/^  module Utils$/;"	m	class:CapEC2
+application	lib/cap-ec2/ec2-handler.rb	/^    def application$/;"	f	class:CapEC2.EC2Handler
+contact_point	lib/cap-ec2/utils.rb	/^    def self.contact_point(instance)$/;"	F	class:CapEC2.Utils
+contact_point_mapping	lib/cap-ec2/utils.rb	/^    def self.contact_point_mapping$/;"	F	class:CapEC2.Utils
+defined_roles	lib/cap-ec2/ec2-handler.rb	/^    def defined_roles$/;"	f	class:CapEC2.EC2Handler
+ec2_connect	lib/cap-ec2/ec2-handler.rb	/^    def ec2_connect(region=nil)$/;"	f	class:CapEC2.EC2Handler
+ec2_handler	lib/cap-ec2/capistrano.rb	/^      def ec2_handler$/;"	f	class:Capistrano.DSL.Ec2
+ec2_id_role	lib/cap-ec2/capistrano.rb	/^      def ec2_id_role(name, options={})$/;"	f	class:Capistrano.DSL.Ec2
+ec2_role	lib/cap-ec2/capistrano.rb	/^      def ec2_role(name, options={})$/;"	f	class:Capistrano.DSL.Ec2
+ec2_tags	lib/cap-ec2/utils.rb	/^      def ec2_tags$/;"	f	class:CapEC2.Utils.Server
+env	lib/cap-ec2/capistrano.rb	/^      def env$/;"	f	class:Capistrano.DSL.Ec2
+get_regions	lib/cap-ec2/utils.rb	/^    def get_regions(regions_array=nil)$/;"	f	class:CapEC2.Utils
+get_server	lib/cap-ec2/ec2-handler.rb	/^    def get_server(instance_id)$/;"	f	class:CapEC2.EC2Handler
+get_servers_for_role	lib/cap-ec2/ec2-handler.rb	/^    def get_servers_for_role(role)$/;"	f	class:CapEC2.EC2Handler
+header_row	lib/cap-ec2/status-table.rb	/^    def header_row$/;"	f	class:CapEC2.StatusTable
+initialize	lib/cap-ec2/ec2-handler.rb	/^    def initialize$/;"	f	class:CapEC2.EC2Handler
+initialize	lib/cap-ec2/status-table.rb	/^    def initialize(instances)$/;"	f	class:CapEC2.StatusTable
+instance_has_tag?	lib/cap-ec2/ec2-handler.rb	/^    def instance_has_tag?(instance, key, value)$/;"	f	class:CapEC2.EC2Handler.get_server
+instance_ids	lib/cap-ec2/ec2-handler.rb	/^    def instance_ids$/;"	f	class:CapEC2.EC2Handler
+instance_status_ok?	lib/cap-ec2/ec2-handler.rb	/^    def instance_status_ok?(instance)$/;"	f	class:CapEC2.EC2Handler.get_server
+instance_to_row	lib/cap-ec2/status-table.rb	/^    def instance_to_row(instance, index)$/;"	f	class:CapEC2.StatusTable
+load_config	lib/cap-ec2/utils.rb	/^    def load_config$/;"	f	class:CapEC2.Utils
+options_with_instance_id	lib/cap-ec2/capistrano.rb	/^      def options_with_instance_id(options, server)$/;"	f	class:Capistrano.DSL.Ec2
+output	lib/cap-ec2/status-table.rb	/^    def output$/;"	f	class:CapEC2.StatusTable
+project_tag	lib/cap-ec2/utils.rb	/^    def project_tag$/;"	f	class:CapEC2.Utils
+roles_tag	lib/cap-ec2/utils.rb	/^    def roles_tag$/;"	f	class:CapEC2.Utils
+server_names	lib/cap-ec2/ec2-handler.rb	/^    def server_names$/;"	f	class:CapEC2.EC2Handler
+stage	lib/cap-ec2/ec2-handler.rb	/^    def stage$/;"	f	class:CapEC2.EC2Handler
+stages_tag	lib/cap-ec2/utils.rb	/^    def stages_tag$/;"	f	class:CapEC2.Utils
+status_table	lib/cap-ec2/ec2-handler.rb	/^    def status_table$/;"	f	class:CapEC2.EC2Handler
+tag	lib/cap-ec2/ec2-handler.rb	/^    def tag(tag_name)$/;"	f	class:CapEC2.EC2Handler
+tag_delimiter	lib/cap-ec2/utils.rb	/^    def tag_delimiter$/;"	f	class:CapEC2.Utils
+tag_value	lib/cap-ec2/utils.rb	/^    def tag_value(instance, key)$/;"	f	class:CapEC2.Utils
